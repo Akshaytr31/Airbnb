@@ -130,6 +130,7 @@ h4{
         height: 79px;
         justify-content: space-between;
         font-size: 12px;
+        column-gap: 13px;
         /* display: grid;
         grid-template-columns: repeat(30,1fr);
         overflow: auto; */
@@ -1878,6 +1879,7 @@ h4{
    }
    .heading h2{
     padding-top: 47px;
+    padding-bottom: 8px;
    }
    .support{
     padding-left: 80px;
@@ -1928,37 +1930,53 @@ h4{
 @media screen and (min-width:1880px) {
     .airbnb{
         grid-template-columns: repeat(6,1fr);
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 80px;
+        padding-right: 80px;
     }
     .airbnb1{
         grid-template-columns: repeat(6,1fr);
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left:80px;
+        padding-right: 80px;
     }
     .java{
-        padding-left: 512px;
-        padding-right: 500px;
+        padding-left: 387px;
+        padding-right: 387px;
 
     }
     .support{
-        padding-left: 512px;
-        padding-right: 500px;
+        padding-left: 387px;
+        padding-right: 383px;
     }
     .mainl{
-        padding-left: 508px;
-        padding-right: 500px;
+        padding-left: 387px;
+        padding-right: 387px;
+        padding-bottom:25px;
     }
     #taskbar{
-        padding-left: 80px;
-        padding-right: 100px;
+        padding-left: 59px;
+        padding-right: 80px;
+        /* height: 169px; */
     }
     .chepek{
-        width: 55%;
+        width: 57.19%;
     }
     .man h1{
         padding-left: 105px;
     }
+    .img2{
+        padding-top: 14px;
+
+    }
+        /*
+    .img2 span{
+        border-bottom: 2px solid;
+    }
+    .img1{
+        padding-top: 14px;
+    }
+    .sticker{
+        height: 90px;
+    } */
    /* .rain{
     height: 76%;
    }
@@ -1974,7 +1992,7 @@ h4{
 }
 @media screen and (min-width:2560px){
     .chepek{
-     width: 53.3%;
+     width: 55.3%;
     }
  }
 
