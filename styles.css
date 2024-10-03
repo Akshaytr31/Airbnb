@@ -462,6 +462,9 @@ h4{
         font-size: 14px;
         padding-left: 0px;
     }
+.popularM{
+    padding-left: 8px;
+}
     .popular p{
         padding: 15px;
         min-width: max-content;
@@ -493,14 +496,7 @@ h4{
         align-items: center;
         margin-bottom: 0px;
         padding-top: 8px;
-        margin-left: 8px;
-
-      
-       
-     
-      
-        
-
+        margin-left: 0px;
     }
     .pop span{
         font-weight: 500;
@@ -768,6 +764,9 @@ h4{
      .spo{
         margin-bottom: 3px;
      }
+     .pot{
+        display: none;
+     }
 /* @media screen and (min-width:375px) {
     .find {
         /* width: 100%; */
@@ -789,6 +788,9 @@ h4{
     }
     .findimg{
         width: 52px;
+    }
+    .mainb{
+        margin-top: 0px;
     }
 
 }
@@ -980,6 +982,7 @@ h4{
         column-gap:24px ;
         row-gap: 10px;
     }
+
 }
  
 
@@ -1047,6 +1050,9 @@ h4{
         margin-bottom: 0px;
         padding-bottom: 14px;
         
+    }
+    .popularM{
+        padding-left: 0px;
     }
     .pop{
         padding-top: 10px; 
@@ -1903,7 +1909,7 @@ h4{
  }
  .pop{
     padding-top: 2px;
-    margin-left: -2px;
+    margin-left: 0px;
  }
  .crts{
     padding-left: 27px;
